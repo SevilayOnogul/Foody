@@ -12,7 +12,7 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
-    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.7" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.1" />
   </ItemGroup>
 
   <ItemGroup>
@@ -21,14 +21,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Views\Shared\Components\_DefaultProductSectionComponentPartial\" />
-    <Folder Include="Views\Shared\Components\_DefaultCategorySectionComponentPartial\" />
-    <Folder Include="Views\Shared\Components\_DefaultFeatureSectionComponentPartial\" />
-    <Folder Include="Views\Shared\Components\_DefaultAboutItemSectionComponentPartial\" />
-    <Folder Include="Views\Shared\Components\_DefaultAboutSectionComponentPartial\" />
-    <Folder Include="Views\Shared\Components\_DefaultSliderSectionComponentPartial\" />
-    <Folder Include="Views\Shared\Components\_DefaultNavbarSectionComponentPartial\" />
+    <Folder Include="Views\Shared\Components\_DefaultReviewSectionComponentPartial\" />
+    <Folder Include="Views\Shared\Components\_DefaultVisitFarmSectionComponentPartial\" />
   </ItemGroup>
+
+ 
 
 
 </Project>

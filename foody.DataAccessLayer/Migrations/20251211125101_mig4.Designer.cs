@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using foody.DataAccessLayer.Context;
 
@@ -10,9 +11,11 @@ using foody.DataAccessLayer.Context;
 namespace foody.DataAccessLayer.Migrations
 {
     [DbContext(typeof(FoodyContext))]
-    partial class FoodyContextModelSnapshot : ModelSnapshot
+    [Migration("20251211125101_mig4")]
+    partial class mig4
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

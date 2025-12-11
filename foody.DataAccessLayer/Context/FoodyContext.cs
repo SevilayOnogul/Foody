@@ -23,6 +23,7 @@ namespace foody.DataAccessLayer.Context
 		public DbSet<Slider> Sliders { get; set; }
 		public DbSet<SocialMedia> SocialMedias { get; set; }
 		public DbSet<AboutItem> AboutItems { get; set; }
+		public DbSet<Article> Articles { get; set; }
 
     }
 }
